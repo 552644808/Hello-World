@@ -97,10 +97,9 @@ public class Register extends JFrame {
 						stam = conn.createStatement();
 						String sql="select * from account";
 						ResultSet rs=stam.executeQuery(sql);
-						int num=0;
-						while(rs.next())num++;
+						
 						// 编写sql语句
-						sql = "insert into account(username,password,biaohao) values('" + userName.getText() + "','" + String.valueOf(password.getPassword()) + "',num)";
+						sql = "insert into account(username,password) values('" + userName.getText() + "','" + String.valueOf(password.getPassword()) + "')";
 						// 执行sql语句
 						stam.execute(sql);
 						JOptionPane.showMessageDialog(null, "注册成功!");
