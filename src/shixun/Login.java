@@ -15,7 +15,7 @@ import static com.mooc.jdbcUtil.jdbcUtil.getConnection;
 
 /**
  * 用户登录
- * @author 大南海
+ * 使用本文件启动
  *
  */
 public class Login extends JFrame{
@@ -195,7 +195,6 @@ public class Login extends JFrame{
 	}
 		
 	public static void main(String[] args) {
-		System.out.println("为什么？？");
 		new Login();
 	}	
 		
