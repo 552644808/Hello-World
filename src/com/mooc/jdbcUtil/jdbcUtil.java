@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 /**
  *      数据库连接类
- * @author 大南海
+ * @author DYX
  *
  */
 public class jdbcUtil {
